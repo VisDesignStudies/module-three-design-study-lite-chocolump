@@ -93,9 +93,9 @@
 
 <script>
     //load data from csv
-    let data0 = d3.csv("https://opal.ils.unc.edu/~tomwill/790/energy.csv", function(d){return d});
+    let data0 = d3.csv("/energy.csv", function(d){return d});
 
-    let data1 = d3.csv("https://opal.ils.unc.edu/~tomwill/790/policydata.csv", function (d) {return d});
+    let data1 = d3.csv("/policydata.csv", function (d) {return d});
 
     class Vis {
 
